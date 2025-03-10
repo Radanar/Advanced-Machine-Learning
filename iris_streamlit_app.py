@@ -5,6 +5,7 @@ import numpy as np
 # Streamlit UI
 st.title("🌸 Iris Flower Classification")
 st.write("Welcome! Enter the flower's measurements to predict its species.")
+st.write("Thynn Yadanar Su")
 
 #Input fields
 petal_length = st.number_input("Petal length (cm)", min_value=0.0, max_value=10.0, step=0.1)
